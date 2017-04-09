@@ -1,0 +1,46 @@
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  height: auto;
+  min-height: 100%;
+  padding-bottom: 120px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  max-width: 1050px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.main {
+  margin: 30px 0;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+	background-color: #0b4b5a;
+}
+
+.column-left {
+	float: left;
+}
+
+.column-right {
+	float: right;
+}
+
+.fit-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

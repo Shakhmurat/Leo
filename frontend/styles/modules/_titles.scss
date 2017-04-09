@@ -1,0 +1,48 @@
+
+.title--primary {
+	font-family: $font-primary-regular;
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: normal;
+	font-style: normal;
+	text-transform: uppercase;
+}
+
+.title--secondary {
+	font-family: $font-primary-regular;
+	font-size: 20px;
+	line-height: 26px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.title--logo {
+  padding-right: 55px;
+	font-size: 36px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.description {
+	font-size: 14px;
+	&.cart {
+	  margin-left: 10px;
+		font-weight: bold;
+		text-transform: uppercase;
+		.cart-counter {
+      font-weight: bold;
+		}
+	}
+}
+
+.ellipsis {
+	white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.copyright {
+  padding-top: 24px;
+	font-size: 13px;
+	color: #8adcf0;
+}
