@@ -15,8 +15,8 @@ $(document).ready(function() {
 	} else {
 	  console.log('No worries, your browser supports objectFit');
 	}
-
-  function search() {
+    
+  $('.input-search').keyup(function () {
   	var searchValue = $('.input-search').val().toUpperCase();
   	$('.product-item-body').each(function(){
 		  if($(this).text().toUpperCase().indexOf(searchValue) > -1) {
@@ -25,10 +25,6 @@ $(document).ready(function() {
 		  	$(this).parent().hide();
 		  }
 		});
-  }
-
-  $('.input-search').keyup(function () {
-  	search();
   });
   
 });
